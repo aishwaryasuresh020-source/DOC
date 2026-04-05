@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8082:80 resume-app'
+                sh 'docker run -d -p 8085:80 resume-app'
             }
         }
     }
